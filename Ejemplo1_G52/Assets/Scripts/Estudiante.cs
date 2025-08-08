@@ -3,12 +3,12 @@ using System;
 
 namespace packagePersona
 {
-
+    [Serializable]
     public class Estudiante : Persona
     {
 
-        private string codeE;
-        private string namcarreraE;
+        public string codeE;
+        public string namcarreraE;
 
         public Estudiante()
         {
